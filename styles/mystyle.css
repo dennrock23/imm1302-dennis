@@ -1,3 +1,14 @@
 * {
   font-family:Arial, Helevetica, sans-serif;
+ 
+ 
+ font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+ font-family:Georgia, serif;
+ 
+ p {font-size:12px;}
+ p {font-size:18px;}
+ 
+ .italics {font-style: italic;}
+ .italics {font-style: bold;}
+ 
 }
