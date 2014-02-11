@@ -1,3 +1,9 @@
 * {
   font-family:Arial, Helevetica, sans-serif;
+ 
+  p {font-size:14px;}
+ 
+ .italics {font-style: italic;}
+
+ 
 }
