@@ -1,5 +1,5 @@
 #wrapper {
-    width: 500px;
+    width: 560px;
     margin: 10px auto 10px auto;
     /* top, right, bottom, left */
     height: 1000px;
@@ -14,24 +14,26 @@ header {
     
 }
 
- 
 .article-header {
     background: #ffffff;
 }
 
-nav, aside {
+nav {
     background: #dddddd;
-    width: 100px;
+    width: 150px;
     float: left;
+}
+
+aside {
+    background: #dddddd;
+    width: 150px;
+    float: right;
 }
 
 article {
     /*border: 1px solid #000000; */
     background: #ffffff;
-    width: 300px;
+    width: 260px;
     float: left;
 }
 
-footer {
-    float:clear-left;
-}
