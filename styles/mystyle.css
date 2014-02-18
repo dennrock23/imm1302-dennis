@@ -13,3 +13,25 @@ header {
     text-align: center;
     
 }
+
+ 
+.article-header {
+    background: #ffffff;
+}
+
+nav, aside {
+    background: #dddddd;
+    width: 100px;
+    float: left;
+}
+
+article {
+    /*border: 1px solid #000000; */
+    background: #ffffff;
+    width: 300px;
+    float: left;
+}
+
+footer {
+    float:clear-left;
+}
