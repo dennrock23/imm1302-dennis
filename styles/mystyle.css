@@ -2,7 +2,7 @@
     width: 800px;
     margin: 10px auto 10px auto;
     /*  top, right, bottom, left */
-    height: 1000px;
+   
     background: #dddddd;
 }
 
@@ -34,7 +34,8 @@ article {
     /*border: 1px solid #000000; */
     background: #ffffff;
     width: 600px;
-    height: 800 px;
+    height: 500px;
+    padding: 20px;
     float: left;
 }
 
