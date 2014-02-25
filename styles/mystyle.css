@@ -7,10 +7,13 @@
 }
 
 header {
+    
+    margin:10px 5px 15px 20px;
     width: 100%;
     height: 50px;
     background:#dddddd;
     text-align: center;
+   
     
 }
 
@@ -19,6 +22,7 @@ header {
 }
 
 nav {
+    display: inline;
     background: #dddddd;
     width: 150px;
     float: left;
@@ -30,11 +34,13 @@ aside {
     float: right;
 }
 
+
+
 article {
     /*border: 1px solid #000000; */
     background: #ffffff;
-    width: 600px;
-    height: 500px;
+    width: 450px;
+    height: 480px;
     padding: 20px;
     float: left;
 }
@@ -49,5 +55,7 @@ footer {
     clear:left;
     text-align:center;
     
-}    
+}
+
+
 }
