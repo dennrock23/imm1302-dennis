@@ -3,15 +3,15 @@
     margin: 10px auto 10px auto;
     /*  top, right, bottom, left */
    
-    background: #dddddd;
+    background: #ff00ff;
 }
 
 header {
     
-    margin:10px 5px 15px 20px;
+    margin:10px 5px 15px 18px;
     width: 100%;
     height: 50px;
-    background:#dddddd;
+    background:#ff00ff;
     text-align: center;
    
     
@@ -25,7 +25,7 @@ nav {
     display: inline;
     background: #dddddd;
     width: 150px;
-    float: left;
+    
 }
 
 aside {
@@ -37,12 +37,12 @@ aside {
 
 
 article {
-    /*border: 1px solid #000000; */
+    border: 1px solid #000000; 
     background: #ffffff;
-    width: 450px;
-    height: 480px;
+    width: 600px;
+    height: 600px;
     padding: 20px;
-    float: left;
+    float:center;
 }
 
 .page-footer {
@@ -54,6 +54,12 @@ article {
 footer {
     clear:left;
     text-align:center;
+    
+}
+ 
+li {
+ display: inline;   
+ padding-right: 130px;
     
 }
 
