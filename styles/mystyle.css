@@ -8,10 +8,11 @@
 
 header {
     
-    margin:10px 5px 15px 18px;
-    width: 100%;
+    margin:0px 5px 15px 18px;
+    width: 800px;
     height: 50px;
     background:#ff00ff;
+    float:center;
     text-align: center;
    
     
@@ -39,9 +40,10 @@ aside {
 article {
     border: 1px solid #000000; 
     background: #ffffff;
-    width: 600px;
+    width: 758px;
     height: 600px;
     padding: 20px;
+    padding left: 40px;
     float:center;
 }
 
@@ -56,6 +58,12 @@ footer {
     text-align:center;
     
 }
+
+aside {
+    float: center;
+    display: inline;
+    
+}
  
 li {
  display: inline;   
@@ -63,5 +71,10 @@ li {
     
 }
 
-
+form {
+    
+  
+    display:inline;
+    
 }
+
