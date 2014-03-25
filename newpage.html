@@ -3,6 +3,10 @@
 
 <head>
       <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+      $("a[href*='http://']:not([href*='"+location.hostname+"']),[href*='https://']:not([href*='"+location.hostname+"'])");
+      .addClass("external");
+      .attr("target","_blank");
+
       <title>New Page for JQuery</title>
       
 </head>
@@ -16,17 +20,18 @@
     <ul>
      
 
-        <li><a href= "www.facebook.com">Facebook</a></li>
-        <li><a href= "www.twitter.com">Twitter</a></li>
-        <li><a href= "www.linkedin.com">LinkedIn</a></li>
+        <li><a href= "http://www.facebook.com">Facebook</a></li>
+        <li><a href= "http://www.twitter.com">Twitter</a></li>
+        <li><a href= "http://www.linkedin.com">LinkedIn</a></li>
     </ul>
     
-    <ul>
-        <li><a href= "www.tumblr.com">Tumblr</a></li>
-        <li><a href= "www.diigo.com">Diigo</a></li>
-        <li><a href= "www.friendfeed.com">FriendFeed</a></li>
+      <ul>
+        <li><a href= "./index.html">Home</a></li>
+        <li><a href= "./profile.html">Profile</a></li>
+        <li><a href= "./artists.html">Artist Bio</a></li>
+        <li><a href= "./registration.html">Registration</a></li>
 
-    </ul>
+      </ul>
     
 
 
